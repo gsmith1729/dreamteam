@@ -8,6 +8,7 @@
 #bluebed {
 	display: none;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -48,5 +49,5 @@ tr:nth-child(even) {
 }
 #heading {
 	padding-left: 30%;
-	color:#8A2BE2;
+	color:#1E90FF;
 }
