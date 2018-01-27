@@ -24,3 +24,14 @@ h1 {
 	left: 20px;
 	width: 88%;
 }
+h5 {
+	position: relative;
+	bottom:150px;
+	left: 5%;
+}
+#graph {
+	position: relative;
+	bottom: 140px;
+	width: 90%;
+	left: 5%;
+}
