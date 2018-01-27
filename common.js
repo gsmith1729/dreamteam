@@ -8,6 +8,5 @@ function changebed(){
 		document.getElementById("normalbed").style.display='inline';
 		document.getElementById("bluebed").style.display='none';
 	}
-	console.log('called')
 
 }
