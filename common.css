@@ -16,6 +16,9 @@ ul {
     overflow: hidden;
     background-color: #333333;
 }
+h4 {
+	padding-left: 40%;
+}
 
 li {
     float: left;
@@ -50,4 +53,7 @@ tr:nth-child(even) {
 #heading {
 	padding-left: 30%;
 	color:#1E90FF;
+}
+p {
+	padding: 5px;
 }

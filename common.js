@@ -2,7 +2,8 @@ var timeslept=0
 var sleeping
 function sleep(){
 	timeslept+=1
-	document.getElementById('time').innerHTML=timeslept
+	timeformat=Math.floor(timeslept/3600)+':'+Math.floor(timeslept/60)+':'+timeslept%60
+	document.getElementById('time').innerHTML=timeformat
 }
 document.getElementById("normalbed").style.display='inline'
 function changebed(){
@@ -16,7 +17,7 @@ function changebed(){
 		document.getElementById("bluebed").style.display='none';
 		
 		clearInterval(sleeping)
-		document.getElementById('time').innerHTML=0
+		document.getElementById('time').innerHTML='0:0:0'
 		timeslept=0
 	}
 
