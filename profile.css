@@ -18,3 +18,8 @@ h1 {
 	position:relative;
 	left: 2%;
 }
+#stats {
+	position: relative;
+	bottom:170px;
+	left: 20px;
+}
