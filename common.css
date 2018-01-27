@@ -46,3 +46,7 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+#heading {
+	padding-left: 30%;
+	color:#8A2BE2;
+}
