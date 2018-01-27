@@ -8,6 +8,7 @@
 #bluebed {
 	display: none;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -45,4 +46,8 @@ td, th {
 
 tr:nth-child(even) {
     background-color: #dddddd;
+}
+#heading {
+	padding-left: 30%;
+	color:#1E90FF;
 }
